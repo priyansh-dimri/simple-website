@@ -32,3 +32,42 @@ body {
   color: #f9faf8;
   text-decoration: none;
 }
+
+/* Hero Section styles */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #1f2937;
+  padding: 100px 100px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.signup {
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.image-container {
+  flex: 1 1 50%;
+}
+
+.hero-image {
+  max-width: 100%;
+}
