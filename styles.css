@@ -108,3 +108,22 @@ body {
   border-radius: 10px;
   padding: 20px;
 }
+
+/* Quote section styling */
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 200px;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+}
+
+.quote-quotee {
+  text-align: end;
+  font-weight: bold;
+  font-size: large;
+}
