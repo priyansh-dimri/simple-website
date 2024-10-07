@@ -127,3 +127,42 @@ body {
   font-weight: bold;
   font-size: large;
 }
+
+/* Action section styles */
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.action-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 50px 150px;
+  border-radius: 10px;
+}
+
+.action-heading {
+  font-size: large;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.action-subheading {
+  font-size: smaller;
+  color: #f9faf8;
+}
+
+.action-button {
+  padding: 5px 32px;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  font-weight: bold;
+  color: #f9faf8;
+  border-radius: 10px;
+}
